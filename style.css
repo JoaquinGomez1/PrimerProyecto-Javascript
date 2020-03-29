@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+	font-family: sans-serif;
+	color:white;
+}
+
+.ubicacion, .temperatura{
+	height:30vh;
+	width:50%;
+	display:flex;
+	justify-content:space-around;
+	align-items: center;
+}
+.temperatura{
+	flex-direction: column;
+}
+
+.icono{
+	flex-direction: column;
+}
+.temperatura-descripcion{
+	display: flex;
+	align-items: center;
+}
+
+.seccion-temperatura{
+	display: flex;
+	justify-content:center;
+	cursor: pointer;
+}
+
+.seccion-temperatura span{
+	margin: 5px;
+	font-size:22px;
+}
+
+.seccion-temperatura h2{
+	font-size: 55px;
+}
