@@ -26,9 +26,6 @@ body {
 	flex-direction: column;
 }
 
-.icono{
-	flex-direction: column;
-}
 .temperatura-descripcion{
 	display: flex;
 	align-items: center;
